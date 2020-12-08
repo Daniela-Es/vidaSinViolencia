@@ -11,8 +11,127 @@
 .color-green-4 { color: #11440D; }
 .color-green-5 { color: #0D330A; }
 
+.bg-cuadros-azul {background-color: #256B98;}
+.bg-cuadros-naranja {background-color: #EE992E;}
+.bg-cuadros-rojo {background-color: #EA2E37;}
+.bg-cuadros-rosa {background-color: #FB565E;}
 
 
+/* .logo{
+    width: 20vw;
+    height: 30vh;
+} */
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    color: white !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: 0.5s;
+}
+
+a:hover{
+    font-size: 20px;
+    transition: 0.5s;
+
+}
+
+main{
+    background-image: url(https://image.freepik.com/vector-gratis/concepto-igualdad-genero_52683-40455.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    /* background-size: cover; */
+}
+
+.titulo{
+    font-family: Cinzel;
+    text-align: center;
+    background-color:black;
+    color: white;
+    height: 14vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.cuadros{
+    opacity: 0.9;
+    transition: 1s;
+    border-radius: 5px;
+    justify-content: space-around;
+    font-family: Raleway;
+}
+
+.cuadros:hover{
+    border-radius: 45px;
+    transition: 1s;
+    opacity: 1;
+}
+
+.cuadro-central{
+    height: 35vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.separador{
+    background-color: black;
+    height: 9vh;
+}
+
+.informacion p{ 
+    font-size: 20px;
+    font-family: Raleway;
+
+}
+.informacion li{
+    font-family: Raleway;
+}
+.informacion h2{
+    font-family: Cinzel;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.informacion img{
+    width: 30%;
+    height: 20%;
+    margin-left: 35%;
+    margin-bottom: 20px;
+}
+
+.informacion-impar{
+    background-color: #71bb6a;
+}
+
+.informacion-impar h2{
+    
+    background-color: #21831A;
+   
+}
+
+.informacion-par{
+    background-color: #21831A;
+}
+
+.informacion-par h2{
+    background-color: #71bb6a;
+}
+
+
+
+
+footer{
+    color: white;
+}
+
+footer li{
+    list-style: none;
+}
 
 
 

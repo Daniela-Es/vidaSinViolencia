@@ -1,0 +1,8 @@
+para inicializar un nuevo repositorio git init --> la primera vez que vinculamos un proyecto a un repositorio en la nube
+----------------
+git add . --> agregar los cambios o archivos nuevos a i area de trabajo (meter en folder los documentos) [agregar todos los cambios "."]
+NOTA: se puede agregar un solo documento agregando el nombre seguido de la extension ejemplo.txt, ejemplo.html 
+
+git commit -m "[message]" /--> permite crear una bandera id, identificador de la version 
+
+
